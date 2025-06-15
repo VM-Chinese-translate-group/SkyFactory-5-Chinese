@@ -1,0 +1,131 @@
+{
+  "display": {
+    "icon": {
+      "item": "obtrophies:trophy",
+      "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:blue\"}}"
+    },
+    "title": {
+      "translate": "gateways.trophies/trophies_blue"
+    },
+    "description": {
+      "text": " "
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/trophies/black_trophies",
+  "criteria": {
+    "blue_vein_creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:blue\"}}"
+          }
+        ]
+      }
+    },
+    "blue_chu_chu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:blue_chu_chu\"}}"
+          }
+        ]
+      }
+    },
+    "bouldering_drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bouldering_drowned\"}}"
+          }
+        ]
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:drowned\"}}"
+          }
+        ]
+      }
+    },
+    "lobber_drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:lobber_drowned\"}}"
+          }
+        ]
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:phantom\"}}"
+          }
+        ]
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:squid\"}}"
+          }
+        ]
+      }
+    },
+    "trader_llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:trader_llama\"}}"
+          }
+        ]
+      }
+    },
+    "viler_witch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:viler_witch\"}}"
+          }
+        ]
+      }
+    },
+    "wandering_trader": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wandering_trader\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

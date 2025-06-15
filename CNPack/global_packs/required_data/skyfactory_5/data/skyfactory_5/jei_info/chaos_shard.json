@@ -1,0 +1,13 @@
+{
+  "items": [
+    "draconicevolution:chaos_shard",
+    "draconicevolution:large_chaos_frag",
+    "draconicevolution:medium_chaos_frag",
+    "draconicevolution:small_chaos_frag"
+  ],
+  "infos": [
+    {
+      "translate": "skyfactory_5.info.chaos_shard"
+    }
+  ]
+}

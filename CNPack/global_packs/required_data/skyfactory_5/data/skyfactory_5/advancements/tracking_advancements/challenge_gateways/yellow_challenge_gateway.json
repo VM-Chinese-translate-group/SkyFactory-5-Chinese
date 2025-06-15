@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "gateways:gate_pearl",
+      "nbt": "{gateway:\"gateways:challenge/challenge_yellow\"}"
+    },
+    "title": {
+      "translate": "gateways.challenge/challenge_yellow"
+    },
+    "description": {
+      "text": " "
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/challenge_gateways/white_challenge_gateway",
+  "criteria": {
+    "yellow_challenge_gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_yellow\"}"
+          }
+        ]
+      }
+    }
+  }
+}
