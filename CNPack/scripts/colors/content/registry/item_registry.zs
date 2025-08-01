@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 
 public enum ColoredItem {
   Apple = "apple",
