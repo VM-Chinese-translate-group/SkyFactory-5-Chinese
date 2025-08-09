@@ -196,5 +196,5 @@ var end_painting = Component.translatable("skyfactory_5.tooltip.end_painting").s
 <item:dimpaintings:end_painting>.addTooltip(end_painting);
 
 // EnderIO Conduit Probe
-var conduit_probe = Component.literal("Shift-Mouse Wheel to Change Mode").setStyle(<constant:formatting:yellow>);
+var conduit_probe = Component.translatable("skyfactory_5.tooltip.conduit_probe").setStyle(<constant:formatting:yellow>);
 <item:enderio:conduit_probe>.addTooltip(conduit_probe);
