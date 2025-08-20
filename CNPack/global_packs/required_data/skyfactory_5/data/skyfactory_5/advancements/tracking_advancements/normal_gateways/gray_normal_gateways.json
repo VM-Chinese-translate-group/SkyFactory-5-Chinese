@@ -5,7 +5,7 @@
       "nbt": "{gateway:\"gateways:normal/gray_vein_creeper\"}"
     },
     "title": {
-      "translate": "gateways.normal/normal_grey"
+      "translate": "gateways.normal/normal_gray"
     },
     "description": {
       "text": " "
